@@ -24,14 +24,14 @@ a {
 .p1{ 
   top: 160%;
   left: 2%;
-  width: 420px;
+  width: 460px;
 }
 
 .p2{ 
   top: 280%;
   right: 2%;
   // color: #363535;
-  width: 290px;
+  width: 360px;
 }
 
 .p3{ 
@@ -49,19 +49,52 @@ a {
 .p0 {
   // position: static!important;
   position: absolute;
-  right: 1%;
-  top: 75%;
+  right: 10%;
+  top: 85%;
   margin-top: 50px;
   font-size: 22px;
-  width: 280px;
+  opacity: .8;
+  // width: 280px;
 }
 
-footer p {
+footer {
   position: absolute;
-  top: 594%;
+  top: 592%;
+  width: 96%;
+  p {
   font-size: 14px!important;
   font-style: italic;
   color: rgb(219, 219, 219);
+  }
+}
+
+.socials {
+  float: right;
+  width: 180px;
+}
+
+.social-links {
+  width: 100%;
+  height: 100%;
+  float: right;
+  a {
+    float: right;
+    padding-left: 10px;
+    img {
+      opacity: .75
+    }
+  }
+}
+
+.dev-text {
+  text-align: right;
+  float: right;
+  margin-top: 5px;
+}
+
+.music-text {
+  float: left;
+  margin-top: 15px;
 }
 
 .enter_btn {

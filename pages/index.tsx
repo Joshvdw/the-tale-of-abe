@@ -18,13 +18,37 @@ const Home: NextPage = () => {
       <main className={styles.main}>    
         <h1 ref={fwdRef}>THE TALE<br/> OF ABE</h1>
         <img className="moon-symbol" src="/images/moon-symbol.png" alt="moon-icon" />
-        <p className="p0">I’ve traveled through lands far, far away from here.</p> 
-        <div className="p p1"><h2>I’ve dispelled</h2><p>dangerous adversaries with ancient magic, using the power of my mind.</p> </div>
-        <div className="p p2"><h2>As I walk </h2><p>I can’t but help wonder...</p> </div>
-        <div className="p p3"><h2>Do I walk towards the light</h2><p>or do I turn back and face the world once more?</p></div>
-        <footer><p>♫ Mind Flight - Flying Lotus</p></footer>
+        <img className="p0" src="/images/gifs/scrolldown.gif" alt="" width={"35px"}/>
+        {/* <p >I’ve traveled through lands far, far away from here.</p>  */}
+        <div className="p p1"><h2>Walking at the edge of the universe</h2><p>where stars and galaxies disperse</p> </div>
+        <div className="p p2"><h2>The vast expanse stretches wide</h2><p>sharpening the senses and opening the mind</p> </div>
+        <div className="p p3"><h2>And even though I stand alone</h2><p>I am a part of something bigger, something profoundly known</p></div>
+        <footer>
+          <div className="footer-container">
+            <div className="music-text">
+              <p>♫ Mind Flight - Flying Lotus</p>
+            </div>
+          <div className="socials">
+            <div className="social-links">
+              <a href={`https://www.linkedin.com/in/jvdwaay/`} target='_blank' rel='noreferrer'>
+                {/* <span className='mb-2 flex flex-row items-end pr-2 text-sm'> */}
+                  <img src='./images/icons/linkedin.svg' alt='' width='24px' height='24px' className='mr-1 enlarge-icon' />
+                {/* </span> */}
+              </a>
+
+              <a href={`https://github.com/Joshvdw`} target='_blank' rel='noreferrer'>
+                {/* <span className='mb-2 flex flex-row items-end pl-2 text-sm'> */}
+                  <img src='./images/icons/github.svg' alt='' width='24px' height='24px' className='mr-1 enlarge-icon' />
+                {/* </span> */}
+              </a>
+            </div>
+              <p className="dev-text">Developed by Josh Waay</p>
+          </div>
+          </div>
+
+        </footer>
       </main>
-      <audio src="/audio/music.mp3" id="music">
+      <audio src="/audio/music.mp3" id="music" loop>
         Your browser does not support the
         <code>audio</code> element.
       </audio>      
